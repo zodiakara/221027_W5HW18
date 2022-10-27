@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start, space-around;
+  align-items: center;
+  background-color: white;
+  height: 8vh;
+}
+.navItem {
+  padding-left: 2vw;
+}
+.logoSVG {
+  padding-left: 1vw;
+}
+.dropDownSvG {
+  height: 1.5vh;
+  align-content: center;
+}
+.headContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #7153fa;
+}
+h1 {
+  color: #f5f5f5;
+}
+.firstP {
+  color: lightgrey;
+}
+.textDiv {
+  padding-right: 10vh;
+}
+.imgDiv {
+  display: flex;
+  padding-left: 5vw;
+}
+.nextContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 10vh;
+}
+.txtBold {
+  font-weight: bold;
+}
+.btn {
+  height: 4vh;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-weight: bold;
+}
+.greenBtn {
+  color: #f5f5f5;
+  background-color: #7bc89a;
+  border: #7bc89a;
+}
+.whiteBtn {
+  color: black;
+  background-color: #f5f5f5;
+  border: #f5f5f5;
+}
+h2 {
+  margin-left: 11vw;
+  margin-top: 8vh;
+}
+.pics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.picCard {
+  width: 18vw;
+  height: 36vh;
+  background-color: white;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.picCard h3 {
+  display: flex;
+  justify-content: center;
+}
+.pcrimg {
+  width: 18vw;
+  flex-basis: 25%;
+  align-items: flex-start;
+}
+.divLine {
+  color: #f5f5f5;
+}
+.clockSVG {
+  padding-top: 2px;
+  padding-left: 5px;
+}
